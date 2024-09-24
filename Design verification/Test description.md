@@ -3,6 +3,7 @@ This documents lists all the measurements that are done on the PRP1 for design c
 The measurements were done on two separate units, results are published in folders
 ## 1) Bode plot 10MHz
 Verifies the gain errors across the frequency span\
+
 ![image](1.png)\
 
 Equipment used:
@@ -25,7 +26,8 @@ Note: 1.3:1 is 0.77 or -2dB
 
 ## 2) AC gain @ 10 MHz
 Verifies the 1.3:1 probe attenuation\
-![image](246.png)\
+
+![image](246.png)
 
 Equipment used:
 * Siglent SDS804X HD Oscilloscope
@@ -42,7 +44,9 @@ Pass criteria: 5% maximum deviation between RMS and Peak to peak value of CH1 an
 
 ## 3) Noise measurement 20MHz BW 12 bit Scope
 Verifies the noise figure of the PRP1\
-![image](31112.png)\
+
+![image](31112.png)
+
 Settings:
 * PRP1 zeroed-out
 * PRP1 powered by lab linear power supply
@@ -60,7 +64,9 @@ $\ Noise = sqrt{CH3^2 - CH1^2) < 50uV$
 
 ## 4) DC gain
 Verifies the 1.3:1 probe attenuation on DC\
-![image](4.png)\
+
+![image](4.png)
+
 Equipment used:
 * Siglent SDS804X HD Oscilloscope
 * Siglent SDG1032X HD Generator
@@ -77,7 +83,8 @@ Two measurements are 5% within each other
 
 ## 5) Cancellation range +24V and -24V
 Verifies the +/-24V Cancellation range of the PRP1\
-![image](5.png)\
+
+![image](5.png)
 
 Equipment used: 
 * Siglent SDS804X HD Oscilloscope
@@ -94,7 +101,9 @@ Output current of the power supply is less than 1mA
 
 ## 6) 500mV dynamic range
 Verifies the active signal range of the PRP1\
-![image](246.png)\
+
+![image](246.png)
+
 Equipment used:
 * Siglent SDS804X HD Oscilloscope
 * Siglent SDG1032X HD Generator
@@ -110,7 +119,8 @@ Measured 500mV peak to peak on the oscilloscope
 
 ## 7) DC input 50KOhm
 Verifies the 50KOhm input impedance in DC conditions of the PRP1\
-![image](7.png)\
+
+![image](7.png)
 
 Equipment used:
 * Siglent SDS804X HD Oscilloscope
@@ -125,7 +135,9 @@ Pass criteria:
 
 ## 8)a VNA bandwidth 10MHz-3 GHz 
 Verifies the minimum 2 GHz bandwidth of the PRP1\
-![image](8a910.png)\
+
+![image](8a910.png)
+
 Equipment used: 
 * LiteVNA
 * Rigol DP832 Power supply
@@ -141,7 +153,8 @@ Note: 1.3:1 is 0.77 or -2dB
 
 ## 8)b VNA bandwidth 400MHz-3 GHz 2nd setup
 Verifies the minimum 2 GHz bandwidth of the PRP1 with a more accurate VNA\
-![image](8b.png)\
+
+![image](8b.png)
 
 Note: Minimum frequency setting of the VNA is 400 MHz\
 Equipment used:
@@ -158,7 +171,8 @@ Pass criteria: 1dB maximum deviation between minimum and maximum of S12 up to 2 
 Nominal gain is -2dB +/- 1dB
 
 ## 9) S parameters
-![image](8a910.png)\
+
+![image](8a910.png)
 
 Equipment used: 
 * LiteVNA
@@ -173,7 +187,9 @@ S parameters provided for reference
 
 
 ## 10) 50 Ohm loading at high freqency, VSWR
-![image](8a910.png)\
+
+![image](8a910.png)
+
 Equipment used: 
 * MegiQ VNA-0440e
 * Rigol DP832 Power supply
@@ -186,7 +202,9 @@ Or capacitive loading of ~ 0.5pF
 
 ## 11) Noise measurement 1GHz BW 8 bit scope
 Verifies the high freqency noise content of the PRP1\
+
 ![image](31112.png)\
+
 2 GHz scope should be used for ideal conditions, but I don't have access to one\
 Equipment used: 
 * Keysight MSOX 3104T Oscilloscope
@@ -206,7 +224,7 @@ Pass criteria:
 TBD
 
 ## 12) Power consumption
-![image](31112.png)\
+![image](31112.png)
 Equipment used: 
 * Siglent SDS804X HD Oscilloscope
 * Rigol DP832 Power supply

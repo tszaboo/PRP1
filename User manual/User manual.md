@@ -8,7 +8,7 @@ Power rail probes can be used after the general voltage levels have been verifie
 For best noise performance the 50Ohm input path of the oscilloscope is used. The 50Ohm inputs on oscilloscopes have a maximum input voltage rating that's typically 5V. Additionally their DC input resistance is also 50 Ohm. This DC loading often times changes the behaviour of the DUT. For example, a power supply might change from pulse skipping mode to PWM mode after the probe is connected.
 Power rail probes provide 50KOhm DC resistance, and 50 Ohm AC impedance, therfore there is minimal loading on the DUT, while the high frequency content of the DUT's noise is also preserved. Power rail probes also limit the DC content to a few hundred millivolts, therefore the 
 
-![image](PRP1-picture.jpg){: width="800px"}
+![image](PRP1-picture.jpg)
 
 ## Safety
 Please be advised about these warnings when operating the PRP1
@@ -22,7 +22,7 @@ Please be advised about these warnings when operating the PRP1
 * Do not use on primary side of mains powered power supply. Only use it on galvanically isolated secondary side
 
 ## Connections
-![image](PRP1-front.jpg){: width="800px"}
+![image](PRP1-front.jpg)
 
 DUT: Connect this to the device under test. Maximum voltage of the connection is 24V. The outer conductor of the SMA connector is referenced to the Earth connection of the oscilloscope and must be connected to the ground connection to the device under test. Ground loops may introduce noise to the system.
 
@@ -30,7 +30,7 @@ Coarse: Potentiometer to adjust the offset voltage. The typical adjustment range
 
 Fine: Potentiometer to adjust the offset voltage. The typical adjustment range of this potentiometer is +500mV to -500mV.
 
-![image](PRP1-back.jpg){: width="800px"}
+![image](PRP1-back.jpg)
 
 USB: Connect this to a 5V powered USB port. The shielding and ground of the USB port is shared with the oscilloscope and shouldn't be connected to other voltages. I recommend powering it with a floating power supply or use the front panel USB port of the oscilloscope.
 
@@ -67,7 +67,7 @@ The following probing methods provide the best performance (highest bandwidth) i
 ## Source impedance
 Do not place a resistor series with the probe. The high-speed gain will be reduced, according to the following:
 
-![image](Source-impedance.jpg){: width="800px"}
+![image](Source-impedance.jpg)
 
 Do not use standard oscilloscope probes with the PRP1.
 
@@ -75,11 +75,11 @@ Do not use standard oscilloscope probes with the PRP1.
 The PRP1 has 50 KOhm DC resistance, and 50 Ohm AC impedance.
 The input impedance is simulated with the following curve:
 
-![image](Input-impedance.png){: width="800px"}
+![image](Input-impedance.png)
 
 The equivalent circuit of the probe is the following:
 
-![image](Impedance.png){: width="800px"}
+![image](Impedance.png)
 
 As you can see oscilloscopes with 50 Ohm path provide the best performance. The 50 Ohm BNC termination resistors used with 1MOhm oscilloscopes will limit the bandwidth of the PRP1 probe, depending on their quality. My estimated bandwidth with the popular and cheap P57 termination resistors is about 200MHz.
 
