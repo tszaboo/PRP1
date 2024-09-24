@@ -4,7 +4,7 @@ PRP1 Power rail probe
 The PRP1 is a low cost oscilloscope agnostic pover rail probe.  
 It's designed to measure noise of power supply rails with wide bandwith.
 
-![image](User-Manual\PRP1-picture.jpg){: width="800px"}
+![image](/User%20manual/PRP1-picture.jpg){: width="800px"}
 
 
 ## Specifications:
@@ -28,8 +28,11 @@ It's designed to measure noise of power supply rails with wide bandwith.
 * USB cable
 
 [User manual](https://github.com/tszaboo/PRP1/blob/main/User%20manual/User%20manual.md)  
-[Design verification measurement setup]()  
-[Design verification measurement results](tbd)  
+
+[Design verification measurement setup](https://github.com/tszaboo/PRP1/blob/main/Design%20verification/Test%20description.md)  
+
+[Design verification measurement results](https://github.com/tszaboo/PRP1/tree/main/Test%20results)  
+
 Design verification conclusion:  
 The design is according to the Specifications 
 
