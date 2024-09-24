@@ -27,9 +27,9 @@ It's designed to measure noise of power supply rails with wide bandwith.
 * SMA-2.54mm square header coax cable for connecting DUT
 * USB cable
 
-[User manual](tbd)  
-[Design verification measurement setup](tbd)  
-[Design verification measurement results](tbd) 
+[User manual](https://github.com/tszaboo/PRP1/blob/main/User%20manual/User%20manual.md)  
+[Design verification measurement setup]()  
+[Design verification measurement results](tbd)  
 Design verification conclusion:  
 The design is according to the Specifications 
 
