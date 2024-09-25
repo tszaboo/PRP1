@@ -60,7 +60,7 @@ Settings:
 * 20MHz bandwidth limit
 
 Pass criteria: 
-$\ Noise = sqrt{CH3^2 - CH1^2} < 50uV$
+$\Noise = sqrt{CH3^2 - CH1^2} < 50uV$
 
 ## 4) DC gain
 Verifies the 1.3:1 probe attenuation on DC\
