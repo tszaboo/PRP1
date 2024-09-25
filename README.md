@@ -13,7 +13,7 @@ It's designed to measure noise of power supply rails with wide bandwith.
 * High frequency input impedance: 50 Ohm
 * Signal attenuation of 1.3:1
 * Transfer function within +/- 1dB to 2GHz
-* Noise: 65 mV RMS to 20MHz with 1.3:1 gain
+* Noise: 65 uV RMS to 20MHz with 1.3:1 gain
 * Active signal range: +/- 500mv
 * Course - Fine adjustment
 * USB Type C 5V power input - run it from your oscilloscope directly
