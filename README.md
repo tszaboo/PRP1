@@ -1,7 +1,7 @@
 # PRP1 Low cost 2GHz power rail probe 
 PRP1 Power rail probe
 
-The PRP1 is a low cost oscilloscope agnostic pover rail probe.  
+The PRP1 is a low cost oscilloscope agnostic power rail probe.  
 It's designed to measure noise of power supply rails with wide bandwith.
 
 ![image](/User%20manual/PRP1-picture.jpg)
