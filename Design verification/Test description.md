@@ -1,5 +1,5 @@
 # Measurements done on the PRP1 Power rail probe
-This documents lists all the measurements that are done on the PRP1 for design characterisation.\
+This documents lists all the measurements that are done on the PRP1 for design characterisation.  
 The measurements were done on two separate units, results are published in folders
 ## 1) Bode plot 10MHz
 Verifies the gain errors across the frequency span\

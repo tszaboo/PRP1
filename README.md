@@ -26,6 +26,7 @@ It's designed to measure noise of power supply rails with wide bandwith.
 * SMA-pigtail coax cable for connecting DUT
 * SMA-2.54mm square header coax cable for connecting DUT
 * USB cable
+* Hard case
 
 [User manual](https://github.com/tszaboo/PRP1/blob/main/User%20manual/User%20manual.md)  
 
@@ -37,7 +38,8 @@ Design verification conclusion:
 The design is according to the Specifications 
 
 ## Ordering
-tbd
+The PRP1 is avaliable from the Zeenko Aliexpress store:  
+[Zeenko](zeenko.aliexpress.com)
 
 tszaboo  
 2024
