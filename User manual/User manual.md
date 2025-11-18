@@ -6,7 +6,7 @@ These are not standard oscilloscope probes and cannot be used the same way. Prop
 It's recommended to probe the power supplies with regular oscilloscope probe first in 1MOhm mode, and 1:1 or 1:10 attenuation.  
 Power rail probes can be used after the general voltage levels have been verified. Their benefits are low intrinsic noise, and low noise pickup due to their construction.
 For best noise performance the 50Ohm input path of the oscilloscope is used. The 50Ohm inputs on oscilloscopes have a maximum input voltage rating that's typically 5V. Additionally their DC input resistance is also 50 Ohm. This DC loading often times changes the behaviour of the DUT. For example, a power supply might change from pulse skipping mode to PWM mode after the probe is connected.
-Power rail probes provide 50KOhm DC resistance, and 50 Ohm AC impedance, therfore there is minimal loading on the DUT, while the high frequency content of the DUT's noise is also preserved. Power rail probes also limit the DC content to a few hundred millivolts, therefore the 
+Power rail probes provide 50KOhm DC resistance, and 50 Ohm AC impedance, therfore there is minimal loading on the DUT, while the high frequency content of the DUT's noise is also preserved. Power rail probes also limit the DC content to a few hundred millivolts, therefore limiting the potential to damage the oscilloscope. 
 
 ![image](PRP1-picture.jpg)
 
@@ -20,6 +20,7 @@ Please be advised about these warnings when operating the PRP1
 * Do not use the probe if there is any sign of damage to it.
 * Do not connect to AC circuits. The probe is only designed to measure DC circuits with small AC component
 * Do not use on primary side of mains powered power supply. Only use it on galvanically isolated secondary side
+* Turning on or shutting down a high voltage power supply, with high slew rate, can temporarily create large voltage spikes that can damage the 50 Ohm termination of the oscilloscope.
 
 ## Connections
 ![image](PRP1-front.jpg)
